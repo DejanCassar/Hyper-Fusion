@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Hyper Fusion</title>
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="Home Page.html" href="Home Page.css">
+</head>
+<body>
+  <style>
+  
+   
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .car-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .car-list .car {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .car-list .car:first-child {
+      margin-top: 0; /* Remove top margin for the first car */
+    }
+
+    .additional-images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .additional-images img {
+      width: 200px;
+      margin: 0 10px;
+    }
+
+    /* Center-align the first car */
+    .car:first-child {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .car:first-child img {
+      width: 550px; /* Set width for the first car */
+    }
+  </style>
+</head>
+<body>
+  <!-- Your existing HTML structure -->
+  <header>
+    <h1>Hyper Fusion</h1>
+    <nav>
+      <ul>
+        
+        <button onclick="location.href='contact Us.html'">Contact Us</button>
+        <button onclick="location.href='Find cars.html'">Find more cars</button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- First car -->
+    <section class="car">
+      <img src="https://static.wikia.nocookie.net/asphalt/images/8/83/A9_Speedtail.jpeg/revision/latest?cb=20200830164422" alt="McLaren Speedtail">
+      <h3>Price: $2,500,000</h3>
+    </section>
+
+    <!-- Additional images -->
+    <div class="additional-images">
+      <img src="https://www.topgear.com/sites/default/files/images/news-article/2015/11/5252d0fd81a17df6042bb1cce57eea88/koenigsegg_agerars_side.jpg" alt="Koenigsegg Agera RS">
+      <img src="https://www.topgear.com/sites/default/files/2022/07/Aspark_Owl_static_side.jpg" alt="Aspark Owl">
+      <img src="https://cimg3.ibsrv.net/ibimg/hgm/1920x1080-1/100/708/lotus_100708215.jpg" alt="Lotus">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/ted74400-1638731753.jpg" alt="Ted74400">
+      <img src="https://s3-prod.autonews.com/s3fs-public/styles/1152x647/public/McLaren%20Solus%20GT%202.jpg" alt="McLaren Solus GT">
+    </div>
+  </main>
+
+  
+  <footer>
+    
+  </footer>
+</body>
+</html>
+
